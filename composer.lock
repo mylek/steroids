@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d89d1ca0be9f0c8caacd88a23fe926d8",
+    "content-hash": "fa47875fe6c3e7dee01a9332cf9fc1ea",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -10679,6 +10679,37 @@
             "time": "2015-10-13T18:44:15+00:00"
         },
         {
+            "name": "snowdog/language-pl_pl",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SnowdogApps/magento2-pl_pl.git",
+                "reference": "ad24adc4e0db693d2ee06b43b63a72dd589067fb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SnowdogApps/magento2-pl_pl/zipball/ad24adc4e0db693d2ee06b43b63a72dd589067fb",
+                "reference": "ad24adc4e0db693d2ee06b43b63a72dd589067fb",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "*"
+            },
+            "type": "magento2-language",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "Polish locale package for Magento 2",
+            "time": "2018-02-22T09:26:51+00:00"
+        },
+        {
             "name": "spomky-labs/otphp",
             "version": "v8.3.3",
             "source": {
@@ -18388,6 +18419,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "snowdog/language-pl_pl": 20,
         "phpmd/phpmd": 0
     },
     "prefer-stable": false,
