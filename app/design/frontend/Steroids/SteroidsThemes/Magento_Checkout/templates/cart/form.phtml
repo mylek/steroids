@@ -8,7 +8,6 @@
 
 /**  @var $block \Magento\Checkout\Block\Cart\Grid */
 ?>
-Kamil
 <?php $mergedCells = ($this->helper('Magento\Tax\Helper\Data')->displayCartBothPrices() ? 2 : 1); ?>
 <?= $block->getChildHtml('form_before') ?>
 <form action="<?= /* @escapeNotVerified */ $block->getUrl('checkout/cart/updatePost') ?>"
